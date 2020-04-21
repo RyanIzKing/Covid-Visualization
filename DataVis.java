@@ -26,11 +26,11 @@ public class DataVis extends JPanel
 	private String[] averageDeaths = { "0", "20", "50", "100", "150" };
 	
 	private static Color[] caseColorPalette = { new Color(0xD0D1E6), new Color(0xA6BDDB), 
-									            new Color(0x74A9CF), new Color(0x2B8CBE), 
-									            new Color(0x045A8D) };
+						    new Color(0x74A9CF), new Color(0x2B8CBE), 
+						    new Color(0x045A8D) };
 	private static Color[] deathColorPalette = { new Color(0xCCECE6), new Color(0x99D8C9), 
-												 new Color(0x66C2A4), new Color(0x2CA25F),
-												 new Color(0x006D2C) };
+						     new Color(0x66C2A4), new Color(0x2CA25F),
+						     new Color(0x006D2C) };
 	
 	public static JScrollPane getVis()
 	{

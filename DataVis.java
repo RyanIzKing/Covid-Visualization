@@ -65,19 +65,19 @@ public class DataVis extends JPanel
 		// and new deaths
 		int caseDx = 390;
 		int deathDx = 737;
-		Rectangle horizontalCaseRect;
-		Rectangle horizontalDeathRect;
+		Rectangle horizontalRect;
 		for (int i = 0; i < caseColorPalette.length; ++i)
 		{
-			horizontalCaseRect = new Rectangle(caseDx, 40, 30, 10);
-			horizontalDeathRect = new Rectangle(deathDx, 40, 30, 10);
+			horizontalRect = new Rectangle(caseDx, 40, 30, 10);
 			
 			// draws the horizontal rectangles with a specified color
 			graphics2D.setColor(caseColorPalette[i]);
-			graphics2D.fill(horizontalCaseRect);
+			graphics2D.fill(horizontalRect);
+			
+			horizontalRect = new Rectangle(deathDx, 40, 30, 10);
 			
 			graphics2D.setColor(deathColorPalette[i]);
-			graphics2D.fill(horizontalDeathRect);
+			graphics2D.fill(horizontalRect);
 			
 			// draws the individual integer values
 			// below the horizontal rectangles

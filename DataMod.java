@@ -17,7 +17,7 @@ public class DataMod
 	private static HashMap<String, Integer> stateCounters = new HashMap<>();
 	
 	// hash map that uses the abbreviated state name as a key
-	//  this key maps to a array list of integers, the array list
+	// this key maps to an array list of integers, the array list
 	// of integers contains two values for each state
 	// total cases are located at index 0, total deaths are located at index 1
 	public static HashMap<String, ArrayList<Integer>> totals = new HashMap<>();

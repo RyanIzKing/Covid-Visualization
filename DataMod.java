@@ -50,7 +50,7 @@ public class DataMod
 			PrintWriter online = new PrintWriter("online.txt");
 			PrintWriter modified = new PrintWriter("modified.txt");
 			URL data =
-					new URL("https://raw.githubusercontent.com/ablag/msc/master/us_states_covid19_daily.csv");
+				new URL("https://raw.githubusercontent.com/ablag/msc/master/us_states_covid19_daily.csv");
 			BufferedReader in = new BufferedReader(new InputStreamReader(data.openStream()));
 			
 			int lineNumber = 0;

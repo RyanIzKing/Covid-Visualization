@@ -130,7 +130,7 @@ public class DataVis extends JPanel
 			// have to access the data in reverse because
 			// the first day accessed is April 11th and the last
 			// accessed is March 18th
-			for (int i = 24; i >= 0; --i)
+			for (int i = stateKeys.size() / 2 - 1; i >= 0; --i)
 			{
 				// storing the daily cases and deaths for a particular state
 				int dailyCases = dailyStateData.get(stateKeys.get(k)).get(i).get(0);
@@ -212,7 +212,7 @@ public class DataVis extends JPanel
 		}
 		
 		int dy = 100;
-		for (int i = 0; i < 50; ++i)
+		for (int i = 0; i < stateKeys.size(); ++i)
 		{
 			dy += 40;
 			// draws a horizontal line

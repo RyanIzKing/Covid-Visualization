@@ -145,7 +145,7 @@ public class DataMod
 				dailyStateData.get(currentKey).add(new ArrayList<>());
 				for (int k = 0; k < dailyIncreasingStateData.get(currentKey).get(j).size(); ++k)
 					dailyStateData.get(currentKey).get(j).add(dailyIncreasingStateData.get(currentKey).get(j).get(k) 
-													        - dailyIncreasingStateData.get(currentKey).get(j + 1).get(k));
+										- dailyIncreasingStateData.get(currentKey).get(j + 1).get(k));
 			}
 		}
 	}
